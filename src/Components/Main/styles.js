@@ -9,32 +9,58 @@ export default makeStyles((theme) =>({
         background: "linear-gradient(83deg, rgba(35,37,38,1) 50%, rgba(65,67,69,1) 100%)",
         alignItems:"center",
     },
+  
     name:{
-        marginBottom:"160px",
+        marginBottom:'100px',
         marginLeft:theme.spacing(15),
         color:"#f3f3f3",
         letterSpacing:"5px",
         position:"relative",
         fontFamily:"",
+        color:"#e0e0e0",
         "&:before": {
             position: "absolute",
-            content: "'Hi! Im Called ... '",
-            top:"-50px",
-            left: "1rem",
+            content: "'Hello '",
+            top:"-25px",
+            left: ".5rem",
             height: 4,
             fontSize:"30px",
             fontWeight:"300",
-            letterSpacing:"6px",
-            fontFamily:" 'Noto Serif', serif",
-           
-            
-            
-           
-          }
-      
+            letterSpacing:"10px",   
+            opacity: .7,
+            color:"lightgrey",
+            fontFamily:"'Dancing Script', cursive",  
+        },
+        "&:after": {
+            position: "absolute",
+            content: "'Welcome to my website '",
+            top:"100px",
+            left: "0rem",
+            width:"100.4%",
+            fontSize:"25px",
+            letterSpacing:"11px",
+            fontFamily:" 'Noto Serif', serif",      
+            opacity: .7,
+               
+        },
+    },
+    left:{
+        
+        display:"flex",
+        flexDirection:"column"
+    },
+    uderName:{
+        paddingTop:"50px",
+        color:"white",
+        fontSize:"40px",
+        letterSpacing:"11px",
+        fontWeight:"900",
+        position:"relative",
+        fontFamily:"  'Dancing Script', cursive",
+    },
+    mainImage:{
+        marginLeft: "300px",
+       
     }
-
-
-
-
+   
 }))

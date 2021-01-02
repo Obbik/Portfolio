@@ -8,7 +8,7 @@ const Navbar = () => {
     const classes = useStyles()
     return (
         <div>
-            <AppBar position="fixed" color="" className={classes.AppBar}>
+            <AppBar position="fixed"  className={classes.AppBar}>
               <Toolbar>
                   <Typography>
                 <img src={logo} alt="logo" height='30px' width="80" className={classes.Logo}/>

@@ -1,9 +1,15 @@
 import {makeStyles} from "@material-ui/core"
 
+const drawerWidth = 0;
+
 export default makeStyles((theme) =>({
 
     AppBar:{
-    backgroundColor:"#212121"
+    backgroundColor:"#212121",
+    [theme.breakpoints.up('sm')]: {
+        width: `calc(100% - ${drawerWidth}px)`,
+        marginLeft: drawerWidth,
+    },
     },
     Logo:{
       padding: "5px 5px 5px 5px",
