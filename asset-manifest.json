@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.754dcf83.chunk.css",
+    "main.js": "/static/js/main.1fa49fdf.chunk.js",
+    "main.js.map": "/static/js/main.1fa49fdf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
+    "static/js/2.d53dae02.chunk.js": "/static/js/2.d53dae02.chunk.js",
+    "static/js/2.d53dae02.chunk.js.map": "/static/js/2.d53dae02.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.754dcf83.chunk.css.map": "/static/css/main.754dcf83.chunk.css.map",
+    "static/js/2.d53dae02.chunk.js.LICENSE.txt": "/static/js/2.d53dae02.chunk.js.LICENSE.txt",
+    "static/media/aboutMeImage.61375142.svg": "/static/media/aboutMeImage.61375142.svg",
+    "static/media/css-3.f83e7599.svg": "/static/media/css-3.f83e7599.svg",
+    "static/media/django.c340192e.svg": "/static/media/django.c340192e.svg",
+    "static/media/ecommerce.f70d2b46.jpg": "/static/media/ecommerce.f70d2b46.jpg",
+    "static/media/git-icon.fd381642.svg": "/static/media/git-icon.fd381642.svg",
+    "static/media/html-5.5804150e.svg": "/static/media/html-5.5804150e.svg",
+    "static/media/javascript.fd46ca41.svg": "/static/media/javascript.fd46ca41.svg",
+    "static/media/main.bafe6893.svg": "/static/media/main.bafe6893.svg",
+    "static/media/material-ui.741a52f5.svg": "/static/media/material-ui.741a52f5.svg",
+    "static/media/nba.9641ecf1.png": "/static/media/nba.9641ecf1.png",
+    "static/media/nodejs-icon.3dc364b8.svg": "/static/media/nodejs-icon.3dc364b8.svg",
+    "static/media/python.6a8b2999.svg": "/static/media/python.6a8b2999.svg",
+    "static/media/react.e27571ea.svg": "/static/media/react.e27571ea.svg",
+    "static/media/redux-saga.a4204525.svg": "/static/media/redux-saga.a4204525.svg",
+    "static/media/redux.a9567540.svg": "/static/media/redux.a9567540.svg",
+    "static/media/rightimage.f8050c31.png": "/static/media/rightimage.f8050c31.png",
+    "static/media/sass.8351205a.svg": "/static/media/sass.8351205a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd7dc15.js",
+    "static/js/2.d53dae02.chunk.js",
+    "static/css/main.754dcf83.chunk.css",
+    "static/js/main.1fa49fdf.chunk.js"
+  ]
+}
