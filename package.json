@@ -5,6 +5,8 @@
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "cra-template": "1.1.1",
+    "gh-pages": "^3.1.0",
+    "homepage": "https://Obbik.github.io/portfolio",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1"
@@ -13,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
