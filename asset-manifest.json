@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.50259524.chunk.css",
+    "main.js": "/portfolio/static/js/main.63c1c512.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.63c1c512.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
+    "static/js/2.c3c1b3e9.chunk.js": "/portfolio/static/js/2.c3c1b3e9.chunk.js",
+    "static/js/2.c3c1b3e9.chunk.js.map": "/portfolio/static/js/2.c3c1b3e9.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.50259524.chunk.css.map": "/portfolio/static/css/main.50259524.chunk.css.map",
+    "static/js/2.c3c1b3e9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c3c1b3e9.chunk.js.LICENSE.txt",
+    "static/media/aboutMeImage.61375142.svg": "/portfolio/static/media/aboutMeImage.61375142.svg",
+    "static/media/css-3.f83e7599.svg": "/portfolio/static/media/css-3.f83e7599.svg",
+    "static/media/django.c340192e.svg": "/portfolio/static/media/django.c340192e.svg",
+    "static/media/ecommerce.f70d2b46.jpg": "/portfolio/static/media/ecommerce.f70d2b46.jpg",
+    "static/media/git-icon.fd381642.svg": "/portfolio/static/media/git-icon.fd381642.svg",
+    "static/media/html-5.3f514250.svg": "/portfolio/static/media/html-5.3f514250.svg",
+    "static/media/javascript.fd46ca41.svg": "/portfolio/static/media/javascript.fd46ca41.svg",
+    "static/media/main.bafe6893.svg": "/portfolio/static/media/main.bafe6893.svg",
+    "static/media/material-ui.741a52f5.svg": "/portfolio/static/media/material-ui.741a52f5.svg",
+    "static/media/nba.9641ecf1.png": "/portfolio/static/media/nba.9641ecf1.png",
+    "static/media/nodejs-icon.3dc364b8.svg": "/portfolio/static/media/nodejs-icon.3dc364b8.svg",
+    "static/media/python.6a8b2999.svg": "/portfolio/static/media/python.6a8b2999.svg",
+    "static/media/react.e27571ea.svg": "/portfolio/static/media/react.e27571ea.svg",
+    "static/media/redux-saga.a4204525.svg": "/portfolio/static/media/redux-saga.a4204525.svg",
+    "static/media/redux.a9567540.svg": "/portfolio/static/media/redux.a9567540.svg",
+    "static/media/rightimage.f8050c31.png": "/portfolio/static/media/rightimage.f8050c31.png",
+    "static/media/sass.8351205a.svg": "/portfolio/static/media/sass.8351205a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fed2963.js",
+    "static/js/2.c3c1b3e9.chunk.js",
+    "static/css/main.50259524.chunk.css",
+    "static/js/main.63c1c512.chunk.js"
+  ]
+}

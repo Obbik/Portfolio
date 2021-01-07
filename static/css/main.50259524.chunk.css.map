@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/style.css"],"names":[],"mappings":"AAAA,KACE,sBACF,CACA,KACE,SAAU,CACV,QACF","file":"main.50259524.chunk.css","sourcesContent":["html {\n  scroll-behavior: smooth;\n}\nbody {\n  padding: 0;\n  margin: 0;\n}\n"]}
