@@ -6,6 +6,9 @@ Container:{
     display:"flex",
     backgroundColor:"#282A29",
     height:"1000px",
+    [theme.breakpoints.down('sm')]: {
+        height:"1300px"
+      }, 
 },
 rightSection:{
     display:"flex",
@@ -17,6 +20,9 @@ rightSection:{
 image:{
     width:"40%",
     transform: "rotateY(180deg)",
+    [theme.breakpoints.down('sm')]: {
+        display:"none"
+      }, 
 },
 textHeader:{
     color:"#f3f3f3",
@@ -33,5 +39,8 @@ textAboutMe:{
     fontSize:"20px",
     letterSpacing:"1.1px",
     fontFamily:" 'Noto Serif', serif",  
+    [theme.breakpoints.down('sm')]: {
+        width:"300px"
+      }, 
 }
 }))

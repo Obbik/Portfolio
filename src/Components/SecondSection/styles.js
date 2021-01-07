@@ -2,7 +2,12 @@ import {makeStyles} from "@material-ui/core"
 export default makeStyles((theme) =>({
     container:{
         backgroundColor:"#242524",
-        height:"1000px"
+        height:"1000px",
+
+        [theme.breakpoints.down('sm')]: {
+            height:"1400px"
+          }, 
+        
     },
     projectText:{
         paddingTop:"100px",
@@ -33,7 +38,12 @@ export default makeStyles((theme) =>({
         height:"400px",
         borderTop: "5px solid #bcbcbc",
         borderBottom: "5px solid #bcbcbc",
-        marginBottom:"20px",
+        [theme.breakpoints.down('sm')]: {
+            marginBottom:"200px",
+            height:"250px"
+          }, 
+       
+        
         '& a':{
             textDecoration:"none",
             color:"#f3f3f3",
@@ -53,8 +63,6 @@ export default makeStyles((theme) =>({
     image:{
         height:"100%",
         maxWidth:"100%",
-       
-
     },
     header:{
         textDecoration:"none",

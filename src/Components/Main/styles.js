@@ -17,6 +17,9 @@ export default makeStyles((theme) =>({
         background: "#F65857"
     },
     name:{
+        [theme.breakpoints.down('sm')]: {
+            marginLeft:"1rem",
+          },  
         marginBottom:'100px',
         marginLeft:theme.spacing(15),
         letterSpacing:"5px",
@@ -45,10 +48,16 @@ export default makeStyles((theme) =>({
             fontSize:"25px",
             letterSpacing:"11px",
             fontFamily:" 'Noto Serif', serif",      
-            opacity: .7,               
+            opacity: .7,     
+            [theme.breakpoints.down('sm')]: {
+                display:"none",
+              },            
         },
     },
     left:{
+        [theme.breakpoints.down('sm')]: {
+            paddingRight:"0"
+          },  
         marginTop:"200px",
         display:"flex",
         flexDirection:"column",
@@ -64,7 +73,10 @@ export default makeStyles((theme) =>({
         fontFamily:"  'Dancing Script', cursive",
     },
     mainImage:{
-        marginLeft: "200px",    
+        marginLeft: "200px",  
+        [theme.breakpoints.down('sm')]: {
+            display:"none",
+          },  
     }
    
 }))

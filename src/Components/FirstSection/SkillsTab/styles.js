@@ -3,7 +3,11 @@ import {makeStyles} from "@material-ui/core"
 export default makeStyles((theme) =>({
     skillsGrid:{
         paddingTop:"20px",
-        justifyContent:"space-between"
+        justifyContent:"space-between",
+        [theme.breakpoints.down('sm')]: {
+            position:"absolute",
+            width:"300px"
+          }, 
     },
 
     skill:{

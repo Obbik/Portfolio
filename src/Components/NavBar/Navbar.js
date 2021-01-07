@@ -27,7 +27,7 @@ const Navbar = () => {
                     </Typography>
                     <Typography className={classes.menuText} >
                     <a href="#contact">
-                        Conctact me 
+                        Contact me 
                     </a>
                     </Typography>
                 </div>

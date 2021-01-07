@@ -35,9 +35,9 @@ const SkillsTab = () => {
    ]
     return (
         <div>
-            <Grid container spacing={1} className={classes.skillsGrid}>
+            <Grid container spacing={0} className={classes.skillsGrid}>
             {skills.map((obj)=>(
-                <Grid item xs={3} key={obj.name} style={{paddingTop:"20px"}}>
+                <Grid item xs={4} lg={3} key={obj.name} style={{paddingTop:"20px"}}>
                     <Paper   className={classes.skill} elevation={0}>
                         <img src={obj.icon} height="100%" className={classes.image} alt=""/>
                         <Typography variant="body2" className={classes.underImageText}>

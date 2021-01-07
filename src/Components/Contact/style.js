@@ -19,6 +19,10 @@ export default makeStyles((theme) =>({
        top:'0px',
        height:"100%",
        right:"0",
+       marginBottom:"200px",
+       [theme.breakpoints.down('sm')]: {
+        display:"none"
+      }, 
        
    },
    image:{

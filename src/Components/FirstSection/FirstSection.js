@@ -12,7 +12,6 @@ const FirstSection = () => {
     return (
             <Container maxWidth={false} className={classes.Container}>
               <section id="about_me" />
-              
                 <img src={image} height="100%" className={classes.image} alt="#"/>
                 <div className={classes.rightSection}>
                   <Typography variant="h4" gutterBottom className={classes.textHeader} >
